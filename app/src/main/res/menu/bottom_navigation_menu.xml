@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/navigation_home"
+        android:enabled="true"
+        android:icon="@drawable/icon_home"
+        android:title="홈"/>
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:enabled="true"
+        android:icon="@drawable/icon_chat"
+        android:title="채팅"/>
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:enabled="true"
+        android:icon="@drawable/icon_people_alt"
+        android:title="프로필"/>
+</menu>
