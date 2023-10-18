@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_bar_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.sssclass.ohsundosun.view.home.HomeFragment"
+        android:label="홈" />
+
+    <fragment
+        android:id="@+id/navigation_chat"
+        android:name="com.sssclass.ohsundosun.view.chat.ChatFragment"
+        android:label="채팅" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.sssclass.ohsundosun.view.profile.ProfileFragment"
+        android:label="프로필" />
+</navigation>

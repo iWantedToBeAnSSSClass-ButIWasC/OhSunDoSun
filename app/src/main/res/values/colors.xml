@@ -8,4 +8,7 @@
     <color name="dark_gray_5C5C5C">#FF5C5C5C</color>
     <color name="dark_gray_242424">#FF242424</color>
     <color name="red">#FF3939</color>
+
+    <color name="main_blue_color">#302CF2</color>
+    <color name="main_black_color">#1A1927</color>
 </resources>
